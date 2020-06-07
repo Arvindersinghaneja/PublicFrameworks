@@ -1,0 +1,11 @@
+framework module CrashBunny {
+  umbrella header "CrashBunny.h"
+
+  export *
+  module * { export * }
+}
+
+module CrashBunny.Swift {
+    header "CrashBunny-Swift.h"
+    requires objc
+}
